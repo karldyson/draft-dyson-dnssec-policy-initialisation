@@ -4,25 +4,25 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>TODO - Your title</title>
-<meta content="Your Name Here" name="author">
-<meta content="
-       TODO Abstract 
-    " name="description">
-<meta content="xml2rfc 3.28.0" name="generator">
-<meta content="next generation" name="keyword">
-<meta content="unicorn" name="keyword">
-<meta content="sparkling distributed ledger" name="keyword">
-<meta content="draft-todo-yourname-protocol-latest" name="ietf.draft">
+<title>Initialisation of DNSSEC Policy for DNS Catalog Zones Members</title>
+<meta content="Karl Dyson" name="author">
+<meta content='
+       This document describes an update to "DNS Catalog Zones" ( ) that facilitates a method to signal DNSSEC policy to DNSSEC signers for member zone(s) using information contained within a catalog zone. 
+    ' name="description">
+<meta content="xml2rfc 3.28.1" name="generator">
+<meta content="catalog zone" name="keyword">
+<meta content="dnssec policy initialisation" name="keyword">
+<meta content="dnssec signer" name="keyword">
+<meta content="draft-dyson-dnssec-policy-initialisation-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.28.0
-    Python 3.12.9
+  xml2rfc 3.28.1
+    Python 3.12.10
     ConfigArgParse 1.7
     google-i18n-address 3.1.1
     intervaltree 3.1.0
     Jinja2 3.1.6
     lxml 5.3.0
-    platformdirs 4.3.6
+    platformdirs 4.3.7
     pycountry 24.6.1
     PyYAML 6.0.2
     requests 2.32.3
@@ -1045,12 +1045,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <table class="ears">
 <thead><tr>
 <td class="left">Internet-Draft</td>
-<td class="center">TODO - Abbreviation</td>
-<td class="right">March 2025</td>
+<td class="center">Initialisation of DNSSEC Policy for DNS </td>
+<td class="right">April 2025</td>
 </tr></thead>
 <tfoot><tr>
-<td class="left">Here</td>
-<td class="center">Expires 21 September 2025</td>
+<td class="left">Dyson</td>
+<td class="center">Expires 27 October 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1058,45 +1058,33 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <div id="internal-metadata" class="document-information">
 <dl id="identifiers">
 <dt class="label-workgroup">Workgroup:</dt>
-<dd class="workgroup">WG Working Group</dd>
+<dd class="workgroup">Network Working Group</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
-<dd class="internet-draft">draft-todo-yourname-protocol-latest</dd>
+<dd class="internet-draft">draft-dyson-dnssec-policy-initialisation-latest</dd>
+<dt class="label-updates">Updates:</dt>
+<dd class="updates">
+<a href="https://www.rfc-editor.org/rfc/rfc9432" class="eref">9432</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2025-03-20" class="published">20 March 2025</time>
+<time datetime="2025-04-25" class="published">25 April 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
-<dd class="intended-status">Informational</dd>
+<dd class="intended-status">Standards Track</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-09-21">21 September 2025</time></dd>
+<dd class="expires"><time datetime="2025-10-27">27 October 2025</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
-      <div class="author-name">Y. N. Here</div>
-<div class="org">Your Organization Here</div>
+      <div class="author-name">K. Dyson</div>
+<div class="org">Nominet UK</div>
 </div>
 </dd>
 </dl>
 </div>
-<h1 id="title">TODO - Your title</h1>
+<h1 id="title">Initialisation of DNSSEC Policy for DNS Catalog Zones Members</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">TODO Abstract<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-</section>
-<section class="note rfcEditorRemove" id="section-note.1">
-      <h2 id="name-about-this-document">
-<a href="#name-about-this-document" class="section-name selfRef">About This Document</a>
-      </h2>
-<p id="section-note.1-1">This note is to be removed before publishing as an RFC.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
-<p id="section-note.1-2">
-        The latest revision of this draft can be found at <span><a href="https://example.com/LATEST">https://example.com/LATEST</a></span>.
-        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-todo-yourname-protocol/">https://datatracker.ietf.org/doc/draft-todo-yourname-protocol/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
-<p id="section-note.1-3">
-        Discussion of this document takes place on the
-        WG Working Group mailing list (<span><a href="mailto:WG@example.com">mailto:WG@example.com</a></span>),
-        which is archived at <span><a href="https://example.com/WG">https://example.com/WG</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
-<p id="section-note.1-4">Source for this draft and an issue tracker can be found at
-        <span><a href="https://github.com/USER/REPO">https://github.com/USER/REPO</a></span>.<a href="#section-note.1-4" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">This document describes an update to "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>) that facilitates a method to signal DNSSEC policy to DNSSEC signers for member zone(s) using information contained within a catalog zone.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <div id="status-of-memo">
 <section id="section-boilerplate.1">
@@ -1117,7 +1105,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 21 September 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 27 October 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1153,19 +1141,88 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="auto internal xref">2</a>.  <a href="#name-conventions-and-definitions" class="internal xref">Conventions and Definitions</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1" class="keepWithNext"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
+            <p id="section-toc.1-1.3.1"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-catalog-zone-properties" class="internal xref">Catalog Zone Properties</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.1">
+                <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-schema-version-version-prop" class="internal xref">Schema Version (version property)</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2">
+                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="auto internal xref">3.2</a>.  <a href="#name-dnssec-dnssec-property" class="internal xref">DNSSEC (dnssec property)</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.1">
+                    <p id="section-toc.1-1.3.2.2.2.1.1"><a href="#section-3.2.1" class="auto internal xref">3.2.1</a>.  <a href="#name-enabling-signing-enabled-pr" class="internal xref">Enabling Signing (enabled property)</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.2">
+                    <p id="section-toc.1-1.3.2.2.2.2.1"><a href="#section-3.2.2" class="auto internal xref">3.2.2</a>.  <a href="#name-policy-policy-property" class="internal xref">Policy (policy property)</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.3">
+                    <p id="section-toc.1-1.3.2.2.2.3.1"><a href="#section-3.2.3" class="auto internal xref">3.2.3</a>.  <a href="#name-keys-key-property" class="internal xref">Keys (key property)</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.4">
+                    <p id="section-toc.1-1.3.2.2.2.4.1"><a href="#section-3.2.4" class="auto internal xref">3.2.4</a>.  <a href="#name-non-existence-nsec-property" class="internal xref">Non Existence (nsec property)</a></p>
+</li>
+                </ul>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-member-zone-properties" class="internal xref">Member Zone Properties</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.1">
+                <p id="section-toc.1-1.4.2.1.1"><a href="#section-4.1" class="auto internal xref">4.1</a>.  <a href="#name-change-of-ownership-coo-pro" class="internal xref">Change Of Ownership (coo property)</a></p>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-name-server-behaviour" class="internal xref">Name Server Behaviour</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1">
+                <p id="section-toc.1-1.5.2.1.1"><a href="#section-5.1" class="auto internal xref">5.1</a>.  <a href="#name-general-behaviour" class="internal xref">General Behaviour</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.2">
+                <p id="section-toc.1-1.5.2.2.1"><a href="#section-5.2" class="auto internal xref">5.2</a>.  <a href="#name-member-zone-removal" class="internal xref">Member Zone Removal</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.3">
+                <p id="section-toc.1-1.5.2.3.1"><a href="#section-5.3" class="auto internal xref">5.3</a>.  <a href="#name-zone-associated-state-reset" class="internal xref">Zone-Associated State Reset</a></p>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-implementation-and-operatio" class="internal xref">Implementation and Operational Notes</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
+            <p id="section-toc.1-1.9.1"><a href="#section-9" class="auto internal xref">9</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
+            <p id="section-toc.1-1.10.1"><a href="#appendix-A" class="auto internal xref">Appendix A</a>.  <a href="#name-examples-4" class="internal xref">Examples</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10.2.1">
+                <p id="section-toc.1-1.10.2.1.1"><a href="#appendix-A.1" class="auto internal xref">A.1</a>.  <a href="#name-catalog-zone-example" class="internal xref">Catalog Zone Example</a></p>
+</li>
+            </ul>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11">
+            <p id="section-toc.1-1.11.1"><a href="#appendix-B" class="auto internal xref">Appendix B</a>.  <a href="#name-author-notes-thoughts" class="internal xref">Author Notes/Thoughts</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12">
+            <p id="section-toc.1-1.12.1"><a href="#appendix-C" class="auto internal xref">Appendix C</a>.  <a href="#name-change-log" class="internal xref">Change Log</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12.2.1">
+                <p id="section-toc.1-1.12.2.1.1"><a href="#appendix-C.1" class="auto internal xref">C.1</a>.  <a href="#name-00-initial-draft" class="internal xref">00 - Initial draft</a></p>
+</li>
+            </ul>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13">
+            <p id="section-toc.1-1.13.1"><a href="#appendix-D" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.14">
+            <p id="section-toc.1-1.14.1"><a href="#appendix-E" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
 </li>
         </ul>
 </nav>
@@ -1176,7 +1233,25 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">TODO Introduction<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-1">This document is a companion to draft-dyson-primary-zonefile-initialisation in that between them, and in conjunction with "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>) and "Dynamic Updates in the Domain Name System (DNS UPDATE)" (<span>[<a href="#RFC2136" class="cite xref">RFC2136</a>]</span>), it becomes possible to complete the end to end initialisation of the provisioning, distribution, signing and serving of a new zone using standards-defined mechanisms.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">The key steps covered are:<a href="#section-1-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-1-3.1">
+          <p id="section-1-3.1.1">Dynamically add a new zone to a catalog ("DNS Dynamic Updates" (<span>[<a href="#RFC2136" class="cite xref">RFC2136</a>]</span>), "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>))<a href="#section-1-3.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-1-3.2">
+          <p id="section-1-3.2.1">Have a designated primary server initialise the zone and serve it (draft-dyson-primary-zonefile-initialisation)<a href="#section-1-3.2.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-1-3.3">
+          <p id="section-1-3.3.1">Have secondary servers automatically add and transfer the zone ("DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>))<a href="#section-1-3.3.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-1-3.4">
+          <p id="section-1-3.4.1">Have designated DNSSEC signer(s) initialise keys and signing policy for the zone (this document)<a href="#section-1-3.4.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<p id="section-1-4">Operators of large scale DNS systems may want to be able to signal the creation of keys as well as key lifetime and other DNSSEC related policy parameters as part of an end-to-end automated mechanism. Further, they may want to avoid the need or overhead of engineering a bespoke solution with the ongoing need to support and maintain it.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">This document defines a vendor-independent mechanism of signalling DNSSEC policy parameters to DNSSEC signer(s) consuming a catalog zone.<a href="#section-1-5" class="pilcrow">¶</a></p>
+<p id="section-1-6">Broader provisioning of the base nameserver configuration is beyond the scope of this document.<a href="#section-1-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="conventions-and-definitions">
@@ -1188,60 +1263,508 @@ svg :is([fill="white"], [fill^="#fff"]) {
 "<span class="bcp14">MAY</span>", and "<span class="bcp14">OPTIONAL</span>" in this document are to be interpreted as
 described in BCP 14 <span>[<a href="#RFC2119" class="cite xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="cite xref">RFC8174</a>]</span> when, and only when, they
 appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶</a></p>
+<p id="section-2-2">The following is in addition to the conventions and definitions as defined in "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>).<a href="#section-2-2" class="pilcrow">¶</a></p>
+<p id="section-2-3">The use of parenthesis in the examples is as described in "Domain Names - Implementation and Specification" (<span>[<a href="#RFC1035" class="cite xref">RFC1035</a>]</span>) Section 5.1.<a href="#section-2-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="catalog-zone-properties">
+<section id="section-3">
+      <h2 id="name-catalog-zone-properties">
+<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-catalog-zone-properties" class="section-name selfRef">Catalog Zone Properties</a>
+      </h2>
+<p id="section-3-1">This section specifies new Catalog Zone level properties, additional to those defined in "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>).<a href="#section-3-1" class="pilcrow">¶</a></p>
+<div id="schema-version-version-property">
+<section id="section-3.1">
+        <h3 id="name-schema-version-version-prop">
+<a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-schema-version-version-prop" class="section-name selfRef">Schema Version (version property)</a>
+        </h3>
+<p id="section-3.1-1">For this memo, the value of the version.$CATZ TXT resource record is unchanged.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.1-2">"DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>) Section 3 is clear that "Catalog consumers <span class="bcp14">MUST</span> ignore any RRs in the catalog zone for which no processing is specified or which are otherwise not supported by the implementation." and as such the addition of the records outlined in this document will be ignored by implementations that do not recognise them.<a href="#section-3.1-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="dnssec-dnssec-property">
+<section id="section-3.2">
+        <h3 id="name-dnssec-dnssec-property">
+<a href="#section-3.2" class="section-number selfRef">3.2. </a><a href="#name-dnssec-dnssec-property" class="section-name selfRef">DNSSEC (dnssec property)</a>
+        </h3>
+<p id="section-3.2-1">If the catalog zone consumer is configured to be a signer of the member zone being processed, the server <span class="bcp14">MUST</span> apply the policy in the catalog. This action does not have to be constrained to the point at which a member zone is newly added to the catalog zone. If a catalog zone is re-configured such that signing is added or updated, the policy <span class="bcp14">MUST</span> be applied to existing members zones within the catalog.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
+<p id="section-3.2-2">If the server consuming the catalog zone is not configured to be a signer for the member zones in the catalog, records within the bailiwick of the dnssec property record <span class="bcp14">MUST</span> be ignored.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
+<p id="section-3.2-3">The "dnssec" property and labels within that bailiwick are <span class="bcp14">OPTIONAL</span> and if absent then no special processing relating to DNSSEC should occur.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
+<p id="section-3.2-4">A number of sub-properties, expressed as labels within the bailiwick of the "dnssec" label, define the initialisation parameters.<a href="#section-3.2-4" class="pilcrow">¶</a></p>
+<div id="enabling-signing-enabled-property">
+<section id="section-3.2.1">
+          <h4 id="name-enabling-signing-enabled-pr">
+<a href="#section-3.2.1" class="section-number selfRef">3.2.1. </a><a href="#name-enabling-signing-enabled-pr" class="section-name selfRef">Enabling Signing (enabled property)</a>
+          </h4>
+<p id="section-3.2.1-1">The "enabled" property is used to signal whether zones should be signed.<a href="#section-3.2.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.1-2">It is <span class="bcp14">OPTIONAL</span> and if absent, defaults to "1".<a href="#section-3.2.1-2" class="pilcrow">¶</a></p>
+<p id="section-3.2.1-3">This can be configured at both the catalog zone level, as well as at the member zone level. As such, it facilitates the ability to set policy parameters at the catalog level, and then override that setting on a per member zone level.<a href="#section-3.2.1-3" class="pilcrow">¶</a></p>
+<div id="parameters">
+<section id="section-3.2.1.1">
+            <h5 id="name-parameters">
+<a href="#section-3.2.1.1" class="section-number selfRef">3.2.1.1. </a><a href="#name-parameters" class="section-name selfRef">Parameters</a>
+            </h5>
+<p id="section-3.2.1.1-1">The only parameter is a boolean, stored as a character-string in the RDATA of a TXT resource record.<a href="#section-3.2.1.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="examples">
+<section id="section-3.2.1.2">
+            <h5 id="name-examples">
+<a href="#section-3.2.1.2" class="section-number selfRef">3.2.1.2. </a><a href="#name-examples" class="section-name selfRef">Examples</a>
+            </h5>
+<p id="section-3.2.1.2-1">Signing is disabled by default for member zones:<a href="#section-3.2.1.2-1" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.1.2-2">
+<pre>
+enabled.dnssec.$CATZ IN TXT "0"
+</pre><a href="#section-3.2.1.2-2" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.1.2-3">Signing is enabled by default for member zones:<a href="#section-3.2.1.2-3" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.1.2-4">
+<pre>
+enabled.dnssec.$CATZ IN TXT "1"
+</pre><a href="#section-3.2.1.2-4" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="policy-policy-property">
+<section id="section-3.2.2">
+          <h4 id="name-policy-policy-property">
+<a href="#section-3.2.2" class="section-number selfRef">3.2.2. </a><a href="#name-policy-policy-property" class="section-name selfRef">Policy (policy property)</a>
+          </h4>
+<p id="section-3.2.2-1">If the implementation has the concept of pre-configured DNSSEC policy, the "policy" property can be used to indicate the name of such a policy.<a href="#section-3.2.2-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.2-2">The "policy" property is <span class="bcp14">OPTIONAL</span>. If present, then its value takes priority over policy defined in the catalog.<a href="#section-3.2.2-2" class="pilcrow">¶</a></p>
+<p id="section-3.2.2-3">If the named policy is not configured on the designated signing server, then an error <span class="bcp14">SHOULD</span> be logged. DNSSEC related processing <span class="bcp14">MAY</span> continue if the other dnssec properties are present and correct. Otherwise, processing <span class="bcp14">SHOULD</span> continue as if the entire dnssec property section was absent.<a href="#section-3.2.2-3" class="pilcrow">¶</a></p>
+<p id="section-3.2.2-4">Note that the member zone section permits the catalog zone level settings to be overridden. A global policy can be overridden with either a different policy, or with key details at the member zone level (see <a href="#memberZoneSection" class="auto internal xref">Section 4</a>).<a href="#section-3.2.2-4" class="pilcrow">¶</a></p>
+<div id="parameters-1">
+<section id="section-3.2.2.1">
+            <h5 id="name-parameters-2">
+<a href="#section-3.2.2.1" class="section-number selfRef">3.2.2.1. </a><a href="#name-parameters-2" class="section-name selfRef">Parameters</a>
+            </h5>
+<p id="section-3.2.2.1-1">The only parameter is a character-string in the RDATA of a TXT resource record containing name of the pre-configured policy.<a href="#section-3.2.2.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="example">
+<section id="section-3.2.2.2">
+            <h5 id="name-example">
+<a href="#section-3.2.2.2" class="section-number selfRef">3.2.2.2. </a><a href="#name-example" class="section-name selfRef">Example</a>
+            </h5>
+<div class="alignLeft art-text artwork" id="section-3.2.2.2-1">
+<pre>
+policy.dnssec.$CATZ IN TXT "some-dnssec-policy-name"
+</pre><a href="#section-3.2.2.2-1" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="keys-key-property">
+<section id="section-3.2.3">
+          <h4 id="name-keys-key-property">
+<a href="#section-3.2.3" class="section-number selfRef">3.2.3. </a><a href="#name-keys-key-property" class="section-name selfRef">Keys (key property)</a>
+          </h4>
+<p id="section-3.2.3-1">The "key" property is used to configure keys that will be applied to the member zone(s) in the catalog.<a href="#section-3.2.3-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.3-2">In the case of a single combined key (type csk), at least one key <span class="bcp14">MUST</span> be defined.<a href="#section-3.2.3-2" class="pilcrow">¶</a></p>
+<p id="section-3.2.3-3">In the case of split keys (types zsk, ksk), at least one key of each type <span class="bcp14">MUST</span> be defined.<a href="#section-3.2.3-3" class="pilcrow">¶</a></p>
+<p id="section-3.2.3-4">If parameters are omitted, such as key sizes or timing parameters, sensible defaults following the guidance of "DNSSEC Operational Practices, Version 2" (<span>[<a href="#RFC6781" class="cite xref">RFC6781</a>]</span>) <span class="bcp14">MUST</span> be used.<a href="#section-3.2.3-4" class="pilcrow">¶</a></p>
+<div id="type-parameter">
+<section id="section-3.2.3.1">
+            <h5 id="name-type-parameter">
+<a href="#section-3.2.3.1" class="section-number selfRef">3.2.3.1. </a><a href="#name-type-parameter" class="section-name selfRef">type parameter</a>
+            </h5>
+<p id="section-3.2.3.1-1">The "type" parameter <span class="bcp14">MUST</span> be present, and is used to convey the key type. It <span class="bcp14">MUST</span> be one of csk, zsk or ksk<a href="#section-3.2.3.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="alg-parameter">
+<section id="section-3.2.3.2">
+            <h5 id="name-alg-parameter">
+<a href="#section-3.2.3.2" class="section-number selfRef">3.2.3.2. </a><a href="#name-alg-parameter" class="section-name selfRef">alg parameter</a>
+            </h5>
+<p id="section-3.2.3.2-1">The "alg" parameter <span class="bcp14">MUST</span> be present, and is used to convey the key algorithm. Algorithms can be specified by name or number (see IANA Registry "DNS Security Algorithm Numbers").<a href="#section-3.2.3.2-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="bits-parameter">
+<section id="section-3.2.3.3">
+            <h5 id="name-bits-parameter">
+<a href="#section-3.2.3.3" class="section-number selfRef">3.2.3.3. </a><a href="#name-bits-parameter" class="section-name selfRef">bits parameter</a>
+            </h5>
+<p id="section-3.2.3.3-1">The "bits" parameter is <span class="bcp14">OPTIONAL</span>, depending on whether this is relevant to the algorithm being used.<a href="#section-3.2.3.3-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="lifetime-parameter">
+<section id="section-3.2.3.4">
+            <h5 id="name-lifetime-parameter">
+<a href="#section-3.2.3.4" class="section-number selfRef">3.2.3.4. </a><a href="#name-lifetime-parameter" class="section-name selfRef">lifetime parameter</a>
+            </h5>
+<p id="section-3.2.3.4-1">The "lifetime" parameter is <span class="bcp14">OPTIONAL</span> and is used to specify how long the key should be published for before being rolled.<a href="#section-3.2.3.4-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.3.4-2">A value of zero (0) is used to indicate "unlimited" whereby the key will not be rolled. This is also the default if unspecified.<a href="#section-3.2.3.4-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="examples-1">
+<section id="section-3.2.3.5">
+            <h5 id="name-examples-2">
+<a href="#section-3.2.3.5" class="section-number selfRef">3.2.3.5. </a><a href="#name-examples-2" class="section-name selfRef">Examples</a>
+            </h5>
+<p id="section-3.2.3.5-1">Combined Key<a href="#section-3.2.3.5-1" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.3.5-2">
+<pre>
+key.dnskey.$CATZ IN TXT "type=csk alg=RSASHA256 bits=2048 lifetime=0"
+</pre><a href="#section-3.2.3.5-2" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.3.5-3">Split Key. The KSK will have unlimited lifetime due to the omitted lifetime parameter defaulting to zero (0). The ZSK will have a lifetime of 90 days.<a href="#section-3.2.3.5-3" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.3.5-4">
+<pre>
+key.dnssec.$CATZ IN TXT "type=ksk alg=ECDSAP256SHA256"
+key.dnssec.$CATZ IN TXT "type=zsk alg=ECDSAP256SHA256 lifetime=90D"
+</pre><a href="#section-3.2.3.5-4" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="non-existence-nsec-property">
+<section id="section-3.2.4">
+          <h4 id="name-non-existence-nsec-property">
+<a href="#section-3.2.4" class="section-number selfRef">3.2.4. </a><a href="#name-non-existence-nsec-property" class="section-name selfRef">Non Existence (nsec property)</a>
+          </h4>
+<p id="section-3.2.4-1">The nsec parameter is <span class="bcp14">OPTIONAL</span>.<a href="#section-3.2.4-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.4-2">If absent, it defaults to the value "nsec".<a href="#section-3.2.4-2" class="pilcrow">¶</a></p>
+<div id="parameters-2">
+<section id="section-3.2.4.1">
+            <h5 id="name-parameters-3">
+<a href="#section-3.2.4.1" class="section-number selfRef">3.2.4.1. </a><a href="#name-parameters-3" class="section-name selfRef">Parameters</a>
+            </h5>
+<p id="section-3.2.4.1-1">The only parameter is a character-string in the RDATA of a TXT resource record containing the preferred NSEC mechanism.<a href="#section-3.2.4.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.4.1-2">If the desired mechanism is NSEC3, the NSEC3 parameters <span class="bcp14">MAY</span> be supplied immediately after, separated by a space. If supplied, they <span class="bcp14">MUST</span> be compliant with "DNSSEC Security (DNSSEC) Hashed Authenticated Denial of Existence" (<span>[<a href="#RFC5155" class="cite xref">RFC5155</a>]</span>) Section 3.3.<a href="#section-3.2.4.1-2" class="pilcrow">¶</a></p>
+<p id="section-3.2.4.1-3">If the value is set to "nsec3" and the NSEC3 parameters are omitted, the values <span class="bcp14">MUST</span> default to "1 0 0 -" as per "Guidance for NSEC3 Parameter Setting" (<span>[<a href="#BCP236" class="cite xref">BCP236</a>]</span>) Section 3.1.<a href="#section-3.2.4.1-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="examples-2">
+<section id="section-3.2.4.2">
+            <h5 id="name-examples-3">
+<a href="#section-3.2.4.2" class="section-number selfRef">3.2.4.2. </a><a href="#name-examples-3" class="section-name selfRef">Examples</a>
+            </h5>
+<p id="section-3.2.4.2-1">NSEC<a href="#section-3.2.4.2-1" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.4.2-2">
+<pre>
+nsec.dnssec.$CATZ IN TXT "nsec"
+</pre><a href="#section-3.2.4.2-2" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.4.2-3">NSEC3 with defaults from <span>[<a href="#BCP236" class="cite xref">BCP236</a>]</span><a href="#section-3.2.4.2-3" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.4.2-4">
+<pre>
+nsec.dnssec.$CATZ IN TXT "nsec3"
+</pre><a href="#section-3.2.4.2-4" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.4.2-5">NSEC3 with supplied parameters<a href="#section-3.2.4.2-5" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3.2.4.2-6">
+<pre>
+nsec.dnssec.$CATZ IN TXT "nsec3 1 1 0 aabbccdd"
+</pre><a href="#section-3.2.4.2-6" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+</section>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="memberZoneSection">
+<section id="section-4">
+      <h2 id="name-member-zone-properties">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-member-zone-properties" class="section-name selfRef">Member Zone Properties</a>
+      </h2>
+<p id="section-4-1">The default properties outlined above can be overridden per member zone. If properties are specified in a more specific scope than the defaults, the most specific scope <span class="bcp14">MUST</span> be used.<a href="#section-4-1" class="pilcrow">¶</a></p>
+<p id="section-4-2">A subset <span class="bcp14">MAY</span> be specified in a more specific scope, for example, the SOA could be omitted, and just the NS records or DNSSEC parameters specified.<a href="#section-4-2" class="pilcrow">¶</a></p>
+<p id="section-4-3">The omitted properties would be inherited from the catalog level values.<a href="#section-4-3" class="pilcrow">¶</a></p>
+<p id="section-4-4">Similarly, if parameters for a property are defined at the catalog zone level, and only some parameters are overridden at the member zone level, the other parameters <span class="bcp14">SHOULD</span> be inherited from the catalog zone level.<a href="#section-4-4" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-4-5">
+<pre>
+&lt;unique-N&gt;.zones.$CATZ          0 PTR example.com.
+enabled.dnssec.&lt;unique-N&gt;.zones.$CATZ IN TXT "1"
+key.dnssec.&lt;unique-N&gt;.zones.$CATZ IN TXT ( "type=csk"
+        "alg=ECDSAP256SHA256" )
+nsec.dnssec.&lt;unique-N&gt;.zones.$CATZ IN TXT "nsec3"
+</pre><a href="#section-4-5" class="pilcrow">¶</a>
+</div>
+<div id="change-of-ownership-coo-property">
+<section id="section-4.1">
+        <h3 id="name-change-of-ownership-coo-pro">
+<a href="#section-4.1" class="section-number selfRef">4.1. </a><a href="#name-change-of-ownership-coo-pro" class="section-name selfRef">Change Of Ownership (coo property)</a>
+        </h3>
+<p id="section-4.1-1">There is no change to the coo property; if the member zone changes ownership to another catalog, fundamentally, the zone's master file already exists.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
+<p id="section-4.1-2">The scope of this document is solely concerned with the initialisation of a new zone's master file, and so in the case of the zone changing ownership, the initialisation parameters <span class="bcp14">MUST NOT</span> be processed.<a href="#section-4.1-2" class="pilcrow">¶</a></p>
+<p id="section-4.1-3">Noting that the primary server for a given catalog's member zones may not be the primary server for the catalog zone itself, nor the primary server for another catalog's member zones, operators should consider their implementation's configuration when planning a change of ownership operation.<a href="#section-4.1-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="name-server-behaviour">
+<section id="section-5">
+      <h2 id="name-name-server-behaviour">
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-name-server-behaviour" class="section-name selfRef">Name Server Behaviour</a>
+      </h2>
+<div id="generalBehaviourSection">
+<section id="section-5.1">
+        <h3 id="name-general-behaviour">
+<a href="#section-5.1" class="section-number selfRef">5.1. </a><a href="#name-general-behaviour" class="section-name selfRef">General Behaviour</a>
+      </h3>
+</section>
+</div>
+<div id="member-zone-removal">
+<section id="section-5.2">
+        <h3 id="name-member-zone-removal">
+<a href="#section-5.2" class="section-number selfRef">5.2. </a><a href="#name-member-zone-removal" class="section-name selfRef">Member Zone Removal</a>
+        </h3>
+<p id="section-5.2-1">If the member zone is removed from the catalog zone, then any data or configuration related to the DNSSEC signing of the zone <span class="bcp14">MUST</span> also be removed unless the implementation provides a configuration option that facilitates retention.<a href="#section-5.2-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="zone-associated-state-reset">
+<section id="section-5.3">
+        <h3 id="name-zone-associated-state-reset">
+<a href="#section-5.3" class="section-number selfRef">5.3. </a><a href="#name-zone-associated-state-reset" class="section-name selfRef">Zone-Associated State Reset</a>
+        </h3>
+<p id="section-5.3-1">In the event of a zone state reset being carried out, the state of the zone's master file <span class="bcp14">MUST</span> be reset as if the file was being initialised for the first time per this document.<a href="#section-5.3-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="implementation-and-operational-notes">
+<section id="section-6">
+      <h2 id="name-implementation-and-operatio">
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-implementation-and-operatio" class="section-name selfRef">Implementation and Operational Notes</a>
+      </h2>
+<p id="section-6-1">When configuring the use of catalog zones, implementations should give the operator the ability to indicate whether the catalog zone consumer is a DNSSEC signer of the catalog's member zones.<a href="#section-6-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
-<section id="section-3">
+<section id="section-7">
       <h2 id="name-security-considerations">
-<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+<a href="#section-7" class="section-number selfRef">7. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
-<p id="section-3-1">TODO Security<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-7-1">This document does not alter the security considerations outlined in "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>).<a href="#section-7-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="iana-considerations">
-<section id="section-4">
+<div id="IANA">
+<section id="section-8">
       <h2 id="name-iana-considerations">
-<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
+<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<p id="section-4-1">This document has no IANA actions.<a href="#section-4-1" class="pilcrow">¶</a></p>
+<p id="section-8-1">IANA is requested to add the following entries to the registry:<a href="#section-8-1" class="pilcrow">¶</a></p>
+<p id="section-8-2">Registry Name: DNS Catalog Zones Properties<a href="#section-8-2" class="pilcrow">¶</a></p>
+<p id="section-8-3">Reference: this document<a href="#section-8-3" class="pilcrow">¶</a></p>
+<span id="name-dns-catalog-zones-properies"></span><table class="center" id="table-1">
+        <caption>
+<a href="#table-1" class="selfRef">Table 1</a>:
+<a href="#name-dns-catalog-zones-properies" class="selfRef">DNS Catalog Zones Properies Registry</a>
+        </caption>
+<thead>
+          <tr>
+            <th class="text-left" rowspan="1" colspan="1">Property Prefix</th>
+            <th class="text-left" rowspan="1" colspan="1">Description</th>
+            <th class="text-left" rowspan="1" colspan="1">Status</th>
+            <th class="text-left" rowspan="1" colspan="1">Reference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-left" rowspan="1" colspan="1">dnssec</td>
+            <td class="text-left" rowspan="1" colspan="1">DNSSEC Properties</td>
+            <td class="text-left" rowspan="1" colspan="1">Standards Track</td>
+            <td class="text-left" rowspan="1" colspan="1">this document</td>
+          </tr>
+          <tr>
+            <td class="text-left" rowspan="1" colspan="1">enabled.dnssec</td>
+            <td class="text-left" rowspan="1" colspan="1">Enable/Disable DNSSEC Signing</td>
+            <td class="text-left" rowspan="1" colspan="1">Standards Track</td>
+            <td class="text-left" rowspan="1" colspan="1">this document</td>
+          </tr>
+          <tr>
+            <td class="text-left" rowspan="1" colspan="1">policy.dnssec</td>
+            <td class="text-left" rowspan="1" colspan="1">DNSSEC Policy</td>
+            <td class="text-left" rowspan="1" colspan="1">Standards Track</td>
+            <td class="text-left" rowspan="1" colspan="1">this document</td>
+          </tr>
+          <tr>
+            <td class="text-left" rowspan="1" colspan="1">key.dnssec</td>
+            <td class="text-left" rowspan="1" colspan="1">DNSSEC Keys</td>
+            <td class="text-left" rowspan="1" colspan="1">Standards Track</td>
+            <td class="text-left" rowspan="1" colspan="1">this document</td>
+          </tr>
+          <tr>
+            <td class="text-left" rowspan="1" colspan="1">nsec.dnssec</td>
+            <td class="text-left" rowspan="1" colspan="1">DNSSEC Proof of Non Existence</td>
+            <td class="text-left" rowspan="1" colspan="1">Standards Track</td>
+            <td class="text-left" rowspan="1" colspan="1">this document</td>
+          </tr>
+        </tbody>
+      </table>
+<p id="section-8-5">Field meanings are unchanged from the definitions in "DNS Catalog Zones" (<span>[<a href="#RFC9432" class="cite xref">RFC9432</a>]</span>).<a href="#section-8-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="sec-normative-references">
-<section id="section-5">
+<section id="section-9">
       <h2 id="name-normative-references">
-<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
+<a href="#section-9" class="section-number selfRef">9. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
       </h2>
 <dl class="references">
+<dt id="BCP236">[BCP236]</dt>
+      <dd>
+<div class="refInstance">Best Current Practice 236, <span>&lt;<a href="https://www.rfc-editor.org/info/bcp236">https://www.rfc-editor.org/info/bcp236</a>&gt;</span>.<br><span>At the time of writing, this BCP comprises the following:</span>
+</div>
+<div class="refInstance" id="RFC9276">
+          <span class="refAuthor">Hardaker, W.</span> and <span class="refAuthor">V. Dukhovni</span>, <span class="refTitle">"Guidance for NSEC3 Parameter Settings"</span>, <span class="seriesInfo">BCP 236</span>, <span class="seriesInfo">RFC 9276</span>, <span class="seriesInfo">DOI 10.17487/RFC9276</span>, <time datetime="2022-08" class="refDate">August 2022</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc9276">https://www.rfc-editor.org/info/rfc9276</a>&gt;</span>. </div>
+</dd>
+<dd class="break"></dd>
+<dt id="RFC1035">[RFC1035]</dt>
+      <dd>
+<span class="refAuthor">Mockapetris, P.</span>, <span class="refTitle">"Domain names - implementation and specification"</span>, <span class="seriesInfo">STD 13</span>, <span class="seriesInfo">RFC 1035</span>, <span class="seriesInfo">DOI 10.17487/RFC1035</span>, <time datetime="1987-11" class="refDate">November 1987</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc1035">https://www.rfc-editor.org/rfc/rfc1035</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC2119">[RFC2119]</dt>
       <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03" class="refDate">March 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2119">https://www.rfc-editor.org/rfc/rfc2119</a>&gt;</span>. </dd>
 <dd class="break"></dd>
+<dt id="RFC2136">[RFC2136]</dt>
+      <dd>
+<span class="refAuthor">Vixie, P., Ed.</span>, <span class="refAuthor">Thomson, S.</span>, <span class="refAuthor">Rekhter, Y.</span>, and <span class="refAuthor">J. Bound</span>, <span class="refTitle">"Dynamic Updates in the Domain Name System (DNS UPDATE)"</span>, <span class="seriesInfo">RFC 2136</span>, <span class="seriesInfo">DOI 10.17487/RFC2136</span>, <time datetime="1997-04" class="refDate">April 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2136">https://www.rfc-editor.org/rfc/rfc2136</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC5155">[RFC5155]</dt>
+      <dd>
+<span class="refAuthor">Laurie, B.</span>, <span class="refAuthor">Sisson, G.</span>, <span class="refAuthor">Arends, R.</span>, and <span class="refAuthor">D. Blacka</span>, <span class="refTitle">"DNS Security (DNSSEC) Hashed Authenticated Denial of Existence"</span>, <span class="seriesInfo">RFC 5155</span>, <span class="seriesInfo">DOI 10.17487/RFC5155</span>, <time datetime="2008-03" class="refDate">March 2008</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc5155">https://www.rfc-editor.org/rfc/rfc5155</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC6781">[RFC6781]</dt>
+      <dd>
+<span class="refAuthor">Kolkman, O.</span>, <span class="refAuthor">Mekking, W.</span>, and <span class="refAuthor">R. Gieben</span>, <span class="refTitle">"DNSSEC Operational Practices, Version 2"</span>, <span class="seriesInfo">RFC 6781</span>, <span class="seriesInfo">DOI 10.17487/RFC6781</span>, <time datetime="2012-12" class="refDate">December 2012</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc6781">https://www.rfc-editor.org/rfc/rfc6781</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC8174">[RFC8174]</dt>
-    <dd>
+      <dd>
 <span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8174">https://www.rfc-editor.org/rfc/rfc8174</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC9432">[RFC9432]</dt>
+    <dd>
+<span class="refAuthor">van Dijk, P.</span>, <span class="refAuthor">Peltan, L.</span>, <span class="refAuthor">Surý, O.</span>, <span class="refAuthor">Toorop, W.</span>, <span class="refAuthor">Monshouwer, C.R.</span>, <span class="refAuthor">Thomassen, P.</span>, and <span class="refAuthor">A. Sargsyan</span>, <span class="refTitle">"DNS Catalog Zones"</span>, <span class="seriesInfo">RFC 9432</span>, <span class="seriesInfo">DOI 10.17487/RFC9432</span>, <time datetime="2023-07" class="refDate">July 2023</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9432">https://www.rfc-editor.org/rfc/rfc9432</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
 </div>
-<div id="acknowledgments">
+<div id="examples-3">
 <section id="appendix-A">
+      <h2 id="name-examples-4">
+<a href="#appendix-A" class="section-number selfRef">Appendix A. </a><a href="#name-examples-4" class="section-name selfRef">Examples</a>
+      </h2>
+<div id="catalog-zone-example">
+<section id="appendix-A.1">
+        <h3 id="name-catalog-zone-example">
+<a href="#appendix-A.1" class="section-number selfRef">A.1. </a><a href="#name-catalog-zone-example" class="section-name selfRef">Catalog Zone Example</a>
+        </h3>
+<p id="appendix-A.1-1">The following is an example catalog zone showing some of the additional properties and parameters as outlined in this document.<a href="#appendix-A.1-1" class="pilcrow">¶</a></p>
+<p id="appendix-A.1-2">By default, zones are signed with ECDSAP256SHA256, and NSEC is used for proof of non existence.<a href="#appendix-A.1-2" class="pilcrow">¶</a></p>
+<p id="appendix-A.1-3">The example.com zone is not signed at all.<a href="#appendix-A.1-3" class="pilcrow">¶</a></p>
+<p id="appendix-A.1-4">The example.org zone is signed with RSASHA256 with 2048 bit keys.<a href="#appendix-A.1-4" class="pilcrow">¶</a></p>
+<p id="appendix-A.1-5">The example.net zone is signed with NSEC3 with OptOut set.<a href="#appendix-A.1-5" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="appendix-A.1-6">
+<pre>
+catz.invalid.                   0 SOA invalid. invalid. (
+      1 3600 600 2419200 3600 )
+catz.invalid.                   0 NS invalid.
+enabled.dnssec.catz.invalid.    0 TXT "1"
+key.dnssec.catz.invalid.        0 TXT ( "type=zsk"
+      "alg=ECDSAP256SHA256" )
+key.dnssec.catz.invalid.        0 TXT ( "type=ksk"
+      "alg=ECDSAP256SHA256" )
+nsec.dnssec.catz.invalid.       0 TXT "nsec"
+kahdkh6f.zones.catz.invalid.    0 PTR example.com.
+hajhsjha.zones.catz.invalid.    0 PTR example.net.
+ytrytryt.zones.catz.invalid.    0 PTR example.org.
+enabled.dnssec.kahdkh6f.zones.catz.invalid. 0 TXT "0"
+key.dnssec.ytrytryt.zones.catz.invalid. 0 TXT ( "type=zsk"
+     "alg=RSASHA256 bits=2048" )
+key.dnssec.ytrytryt.zones.catz.invalid. 0 TXT ( "type=ksk"
+     "alg=RSASHA256 bits=2048" )
+nsec.hajhsjha.zones.catz.invalid. 0 TXT "nsec3 1 1 0 -"
+</pre><a href="#appendix-A.1-6" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="author-notesthoughts">
+<section id="appendix-B">
+      <h2 id="name-author-notes-thoughts">
+<a href="#appendix-B" class="section-number selfRef">Appendix B. </a><a href="#name-author-notes-thoughts" class="section-name selfRef">Author Notes/Thoughts</a>
+      </h2>
+<p id="appendix-B-1"><em>NB: To be removed by the RFC Editor prior to publication.</em><a href="#appendix-B-1" class="pilcrow">¶</a></p>
+<p id="appendix-B-2">More parameters can be added to support timings, TTLs, etc, but I wanted to circulate the broad idea for feedback first before refining the detail.<a href="#appendix-B-2" class="pilcrow">¶</a></p>
+<p id="appendix-B-3">Not sure referring to BCP236 by section is correct as if the BCP is updated to refer to another RFC, the section reference may be incorrect... suspect I should remove the section reference...<a href="#appendix-B-3" class="pilcrow">¶</a></p>
+<p id="appendix-B-4">I've stated that at least one key of each type <span class="bcp14">MUST</span> be configured, 1xCSK or (1xZSK + 1xKSK) however, this doesn't permit for the scenario where the operator keeps their KSK offline and only periodically signs and re-inserts the keyset signature into the zone...<a href="#appendix-B-4" class="pilcrow">¶</a></p>
+<p id="appendix-B-5">It may also be nice to be able to say "type=none" so that if the zone received is already signed, it can be unsigned... see other operator/transition thought below...<a href="#appendix-B-5" class="pilcrow">¶</a></p>
+<p id="appendix-B-6">I'm mindful of this being useful, but also not overly complex. It's outside of the scope of this document, for example, as to the updating of the DS in the parent. There are other mechanisms, such as RFC9615 that deal with this.<a href="#appendix-B-6" class="pilcrow">¶</a></p>
+<p id="appendix-B-7">I'm also mindful that 3.2 says that if the policy changes, it must be applied to member zones - this feels like it is open to causing mayhem unless the operator is very careful. I'd like to include something like the word "gracefully" ('the policy <span class="bcp14">MUST</span> be gracefully applied') but this feels too wooly and unclear. I'd welome thoughts here.<a href="#appendix-B-7" class="pilcrow">¶</a></p>
+<p id="appendix-B-8">I've stated that if defined, the name of a pre-defined (in the implementation's config, such as BIND9's dnssec-policy) policy name should override policy defined in the catalog, but then permitted keys to be defined at a member zone level. This may be confusing. I'm thinking about revising/removing this.<a href="#appendix-B-8" class="pilcrow">¶</a></p>
+<p id="appendix-B-9">I'm thinking about defining named policy in the catalog and then setting a default named policy at the catalog level and just specifying the policy name at the mmeber zone level if there's a desire to override.<a href="#appendix-B-9" class="pilcrow">¶</a></p>
+<p id="appendix-B-10">so, something like:<a href="#appendix-B-10" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="appendix-B-11">
+<pre>
+key.dnssec.mypolicy.policies.dnssec.catz.invalid. 0 TXT ( "type=csk"
+            "alg=13" )
+nsec.dnssec.mypolicy.policies.dnssec.catz.invalid. 0 TXT "nsec3"
+key.dnssec.otherpolicy.policies.dnssec.catz.invalid. 0 TXT ( "type=csk"
+            "alg=8 bits 2048" )
+nsec.dnssec.otherpolicy.policies.dnssec.catz.invalid. 0 TXT "nsec3 1 1 0 -"
+
+enabled.dnssec.catz.invalid. 0 TXT "1"
+
+policy.dnssec.catz.invalid. 0 TXT "mypolicy"
+policy.dnssec.&lt;unique-N&gt;.zones.catz.invalid. 0 TXT "otherpolicy"
+</pre><a href="#appendix-B-11" class="pilcrow">¶</a>
+</div>
+<p id="appendix-B-12">An operator may want to be able to transition zones from other operators without breaking DNSSEC; secondary the given zone from the existing provider, unsign it whilst post-publishing the incumbent's key(s) and re-sign with their own key(s) (all as part of a wider process). This feels quite niche and custom though, but is a use case I'm considering.<a href="#appendix-B-12" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="change-log">
+<section id="appendix-C">
+      <h2 id="name-change-log">
+<a href="#appendix-C" class="section-number selfRef">Appendix C. </a><a href="#name-change-log" class="section-name selfRef">Change Log</a>
+      </h2>
+<p id="appendix-C-1"><em>NB: To be removed by the RFC Editor prior to publication.</em><a href="#appendix-C-1" class="pilcrow">¶</a></p>
+<div id="initial-draft">
+<section id="appendix-C.1">
+        <h3 id="name-00-initial-draft">
+<a href="#appendix-C.1" class="section-number selfRef">C.1. </a><a href="#name-00-initial-draft" class="section-name selfRef">00 - Initial draft</a>
+      </h3>
+</section>
+</div>
+</section>
+</div>
+<div id="Acknowledgements">
+<section id="appendix-D">
       <h2 id="name-acknowledgments">
 <a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
       </h2>
-<p id="appendix-A-1">TODO acknowledge.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
+<p id="appendix-D-1">TODO acknowledge.<a href="#appendix-D-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="authors-addresses">
-<section id="appendix-B">
+<section id="appendix-E">
       <h2 id="name-authors-address">
 <a href="#name-authors-address" class="section-name selfRef">Author's Address</a>
       </h2>
 <address class="vcard">
-        <div dir="auto" class="left"><span class="fn nameRole">Your Name Here</span></div>
-<div dir="auto" class="left"><span class="org">Your Organization Here</span></div>
+        <div dir="auto" class="left"><span class="fn nameRole">Karl Dyson</span></div>
+<div dir="auto" class="left"><span class="org">Nominet UK</span></div>
+<div dir="auto" class="left"><span class="street-address">Minerva House<br>Edmund Halley Road<br>Oxford Science Park</span></div>
+<div dir="auto" class="left"><span class="locality">Oxford</span></div>
+<div dir="auto" class="left"><span class="postal-code">OX4 4DQ</span></div>
+<div dir="auto" class="left"><span class="country-name">United Kingdom</span></div>
 <div class="email">
 <span>Email:</span>
-<a href="mailto:your.email@example.com" class="email">your.email@example.com</a>
+<a href="mailto:karl.dyson@nominet.uk" class="email">karl.dyson@nominet.uk</a>
+</div>
+<div class="url">
+<span>URI:</span>
+<a href="https://nominet.uk" class="url">https://nominet.uk</a>
 </div>
 </address>
 </section>
