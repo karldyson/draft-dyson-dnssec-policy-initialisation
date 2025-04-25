@@ -1,0 +1,13 @@
+//settings.json.config file
+//... Rest of file
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.md$",
+                "cmd": "make"
+            }
+        ]
+    },
+    "makefile.configureOnOpen": false
+}
